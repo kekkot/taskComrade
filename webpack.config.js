@@ -5,32 +5,22 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, '/'),
     filename: 'bundle.js',
-  },
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, 'dist'),
-    },
-    port: 3000,
-    open: true,
-    hot: true,
-    compress: true,
-    historyApiFallback: true,
   },
   module: {
     rules: [
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'src'),
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
+        include: path.resolve(__dirname, '/'),
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       // template: "index.html",
-      template: path.resolve(__dirname, 'src/index.html')
+      template: path.resolve(__dirname, 'index.html')
     }),    
   ],
 }
