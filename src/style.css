@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-blue {
+      @apply py-4 px-5 bg-[#3A98B2] hover:bg-[#328BA4] rounded-[5px] text-white;
+    }
+  }
+  @layer base {
+    @font-face {
+      font-family: 'WorkSans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/src/assets/fonts/WorkSans-Regular.ttf) format('woff2');
+    }
+  }
