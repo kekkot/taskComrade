@@ -16,3 +16,8 @@
       src: url(/src/assets/fonts/WorkSans-Regular.ttf) format('woff2');
     }
   }
+  .swiper-pagination{   
+    transform: rotate(-90deg)!important;
+    height: 28px;
+    top: 0px;
+  }
