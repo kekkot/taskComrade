@@ -1204,6 +1204,10 @@ video {
     margin-top: 1rem;
   }
 
+  .lg\:mt-36 {
+    margin-top: 9rem;
+  }
+
   .lg\:block {
     display: block;
   }
