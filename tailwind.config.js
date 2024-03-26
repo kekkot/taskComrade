@@ -6,8 +6,8 @@ module.exports = {
       },
       extend: {
         backgroundImage: {
-          'mainH1Bg': "url('/src/assets/img/mainImg.webp')",
-          'mainH1BgShort': "url('/src/assets/img/mainImgShort.webp')",
+          'mainH1Bg': "url('./src/assets/img/mainImg.webp')",
+          'mainH1BgShort': "url('./src/assets/img/mainImgShort.webp')",
         },
         boxShadow: {
           '3xl': '1px 1px 12px 0px #4747470F, -1px -1px 12px #4747470F',
