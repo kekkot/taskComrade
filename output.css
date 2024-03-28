@@ -605,6 +605,10 @@ video {
   top: 80px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -817,6 +821,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-\[5px\] {
@@ -1200,12 +1208,12 @@ video {
     margin-top: 0px;
   }
 
-  .lg\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .lg\:mt-36 {
     margin-top: 9rem;
+  }
+
+  .lg\:mt-4 {
+    margin-top: 1rem;
   }
 
   .lg\:block {
